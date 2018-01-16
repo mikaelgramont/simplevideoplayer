@@ -1,0 +1,53 @@
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.info {
+	text-align: center;	
+}
+
+.container {
+	text-align: center;	
+}
+
+.video-wrapper {
+	margin: 0 auto 1em;
+	width: 640px;
+}
+
+.player {
+	display: block;
+	margin: 0 auto;
+}
+
+.play-toggle {
+	padding: 1em;
+	font-size: 1em;	
+}
+
+.progress-wrapper {
+	position: relative;
+	width: 100%; /* Unnecessary */
+	height: 4px;
+	background: #888;
+}
+
+.progress-bar {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #f00;
+	transform-origin: 0;
+	/* Make progress smoother. */
+	transition-property: transform;
+  	transition-duration: 500ms;
+}

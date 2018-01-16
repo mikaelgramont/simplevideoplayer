@@ -1,0 +1,29 @@
+{
+  "name": "simplevideoplayer",
+  "version": "1.0.0",
+  "description": "Simple video player",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "test": "jest",
+    "test-e2e": "./node_modules/.bin/nightwatch"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "chromedriver": "^2.34.1",
+    "jest-cli": "^22.1.1",
+    "nightwatch": "^0.9.19",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
+}
