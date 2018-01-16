@@ -1,6 +1,6 @@
 # Simple video player avec React.
 
-##Installation
+## Installation
 Veiller a installer [Selenium](http://selenium-release.storage.googleapis.com/index.html) et [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) dans le repertoire `bin` pour pouvoir lancer les tests end2end.
 
 ## Commandes
